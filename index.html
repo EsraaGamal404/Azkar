@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Azkar</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link rel="icon" href="assets/icons/dua-hands.webp" />
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <div class="container d-flex">
+      <div class="logo">
+        <a href="index.html">
+           <i class="fa-regular fa-moon moon" id="switch"></i>
+           ازكار </a></div>
+    <nav>
+      <label for="toggle"><i id="toggle-nav-menu"  class="fa-solid fa-bars menu"></i></label>
+      <input type="checkbox" id="toggle">
+    <ul id="nav-menu">
+      <li><a href="#morning">ازكار الصباح</a></li>
+      <li><a href="#evening">ازكار المساء</a></li>
+      <li><a href="#remembrances">ازكار بعد السلام من الصلاه المفروضه</a></li>
+      <li><a href="#rosaries">تسابيح</a></li>
+      <li><a href="#wake-up">ازكارالاستيقاظ</a></li>
+      <li><a href="#quranic">ادعيه قرانيه</a></li>
+      <li><a href="#prophets">ادعيه الانبياء</a></li>
+    </ul>
+    </nav>
+    </div>
+  </header>
+  <main>
+  <section id="morning">
+    <div class="container">
+      <h2>ازكار الصباح</h2>
+      <ol id="morning-list"></ol>
+    </div>
+  </section>
+  <section id="evening">
+    <div class="container">
+      <h2>ازكار المساء</h2>
+      <ol id="evening-list"></ol>
+    </div>
+    </section>
+     <section id="remembrances">
+      <div class="container">
+        <h2>ازكار بعد السلام من الصلاه المفروضه </h2>
+        <ol id="remembrances-after-prayer"></ol>
+      </div>
+      </section>
+      <section id="rosaries">
+        <div class="container">
+          <h2>تسابيح </h2>
+          <ol id="rosaries-list"></ol>
+        </div>
+        </section>
+        <section id="sleeping">
+          <div class="container">
+            <h2>ازكار النوم</h2>
+            <ol id="sleeping-list"></ol>
+          </div>
+          </section>
+             <section id="wake-up">
+              <div class="container">
+                <h2>ازكارالاستيقاظ </h2>
+                <ol id="wake-up-list"></ol>
+              </div>
+              </section>
+              <section id="quranic">
+                <div class="container">
+                  <h2>ادعيه قرانيه</h2>
+                  <ol id="quranic-list"></ol>
+                </div>
+                </section>
+                <section id="prophets">
+                  <div class="container">
+                    <h2>ادعيه الانبياء</h2>
+                    <ol id="prophets-list"></ol>
+                  </div>
+                  </section>
+  </main>
+  <script src="assets/scripts/main.js"></script>
+</body>
+</html>
