@@ -4,16 +4,18 @@
   box-sizing: border-box;
 }
 :root {
-  --white: #ffffff;
   --main-color: #630a5e;
   --text-color:#fff;
   --section-padding: 60px;
-  --h1-size: 72px;
-  --text-size: 20px;
-  --bg-alt: #000;
+}
+.dark-theme{
+  --main-color: #000;
+  --text-color:#fff;
 }
 body{
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #e0d9d9;
 }
 .container {
   padding: 0 15px;
@@ -78,7 +80,7 @@ header nav input{
     }
 }
   .menu{
-    color:var(--white);
+    color:var(--text-color);
     font-size: 30px;
     cursor: pointer;
   }
@@ -107,24 +109,40 @@ header nav input{
     font-weight: bold;
   }
   nav ul li a:hover{
-    color: var(--black);
+    color: black;
     transition: 0.3s;
   }
   .logo a{
-    color: var(--white);
+    color:var(--text-color);
     font-weight: bold;
     font-size: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
   }
   .moon{
-  color: var(--white);
+  width: 50px;
   }
-.dark-theme{
-background-color:#000;
-}
 section h2{
   font-size: 36px;
-  color: #630a5e;
+  color:var(--main-color);
   font-weight: bold;
   text-align: center;
   padding: var(--section-padding);
+}
+section li{
+color:var(--text-color);
+background-color: var(--main-color);
+margin: 20px;
+font-size: 20px;
+padding: 10px;
+}
+section li p {
+  line-height: 1.6;
+}
+section li p:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
 }
