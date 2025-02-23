@@ -112,7 +112,7 @@ header nav input{
     color: black;
     transition: 0.3s;
   }
-  .logo a{
+  .logo button{
     color:var(--text-color);
     font-weight: bold;
     font-size: 50px;
