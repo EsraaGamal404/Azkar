@@ -119,6 +119,8 @@ header nav input{
     display: flex;
     align-items: center;
     gap: 10px;
+      background-color: transparent;
+      border: none;
   }
   .moon{
   width: 50px;
